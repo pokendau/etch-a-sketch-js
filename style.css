@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.box {
+    background-color: gray;
+    width: calc(100% / 16);
+    height: calc(100vw / 16);
+    padding: 0;
+    margin: 0;
+}
+.box:hover {
+    background-color: red;
+}
+
+button {
+    position: absolute;
+    left: 50%;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    font-size: 18px;
+    transform: translateX(-50%);
+}
